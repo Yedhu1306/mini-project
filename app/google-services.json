@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "841180824657",
+    "firebase_url": "https://android-smartcity-traveller.firebaseio.com",
+    "project_id": "android-smartcity-traveller",
+    "storage_bucket": "android-smartcity-traveller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841180824657:android:9cb4968a1b689bbe7ce470",
+        "android_client_info": {
+          "package_name": "com.example.androidsmartcitytraveller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841180824657-8eg0mr0lge2uijnmp7b263q6h61kcd6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeAICeS_urlQa9JAKm3eXU0-sH3_j5jsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841180824657-8eg0mr0lge2uijnmp7b263q6h61kcd6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

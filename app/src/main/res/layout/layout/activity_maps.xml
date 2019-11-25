@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context="com.example.mahima.mapapp.MapsActivity" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/relLayout1">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_magnify"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:paddingLeft="12dp"
+            android:id="@+id/input_search"
+            android:background="@null"
+            android:hint="Enter Address,City or Zip Code"
+            android:imeOptions="actionSearch"
+            android:inputType="textNoSuggestions"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/relLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/ic_gps"
+        android:src="@drawable/ic_gps"/>
+
+    <ImageView
+        android:id="@+id/ic_prev"
+        android:layout_width="71dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/ic_prev" />
+
+    <ImageView
+        android:id="@+id/ic_next"
+        android:layout_width="62dp"
+        android:layout_height="42dp"
+
+        android:layout_alignBottom="@+id/ic_prev"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
+        app:srcCompat="@drawable/ic_next" />
+
+    <TextView
+        android:id="@+id/route"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ic_prev"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:text="Route1"
+        android:textAlignment="center"
+        android:textColor="#07181E"
+        android:textSize="25sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="19dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/confirm" />
+
+    <ImageView
+        android:id="@+id/travelloc_prev"
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/confirm"
+        android:layout_alignStart="@+id/ic_prev"
+        app:srcCompat="@drawable/ic_prev" />
+
+    <ImageView
+        android:id="@+id/travelloc_next"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
+        android:layout_above="@+id/confirm"
+        android:layout_alignEnd="@+id/ic_next"
+        app:srcCompat="@drawable/ic_next" />
+
+    <TextView
+        android:id="@+id/travelloc_name"
+        android:layout_width="156dp"
+        android:layout_height="44dp"
+        android:layout_alignEnd="@+id/route"
+        android:layout_alignTop="@+id/travelloc_prev"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#07181E"
+        android:textSize="20sp" />
+
+</RelativeLayout>

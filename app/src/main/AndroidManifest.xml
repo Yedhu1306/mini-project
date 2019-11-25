@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidsmartcitytraveller">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/plane"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity
+            android:name=".SignupActivity"
+            android:label="SignUp"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity
+            android:name=".TravelActivity"
+            android:label="Home"
+            android:theme="@style/MyTheme" /> <!-- android:theme="@style/MyTheme2" /> -->
+        <activity
+            android:name=".questionnaire1"
+            android:label="Questionnaire"
+            android:parentActivityName=".TravelActivity"
+            android:theme="@style/MyTheme2" />
+        <activity
+            android:name=".questionnaire2"
+            android:label="Questionnaire"
+            android:parentActivityName=".questionnaire1"
+            android:theme="@style/MyTheme2" />
+        <activity
+            android:name=".questionnaire3"
+            android:label="Questionnaire"
+            android:parentActivityName=".questionnaire2"
+            android:theme="@style/MyTheme2" />
+        <activity
+            android:name=".GifActivity"
+            android:theme="@style/MyTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".TravelPlanActivity"
+            android:label="@string/title_activity_travel_plan"
+            android:theme="@style/MyTheme2" />
+        <activity
+            android:name=".Feedback_activity"
+            android:label="Feedback"
+            android:theme="@style/MyTheme2" />
+        <activity
+            android:name=".AboutUs_activity"
+            android:label="About Us"
+            android:theme="@style/MyTheme2" />
+        <activity
+            android:name=".LearnMore"
+            android:label="About App"
+            android:theme="@style/MyTheme2" />
+    </application>
+
+</manifest>

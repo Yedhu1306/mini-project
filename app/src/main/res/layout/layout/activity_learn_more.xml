@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="#000000"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="Hey There!!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="Welcome to our app exploReady. Using this app to plan your travel is actually quite simple.
+Let me guide you through this simple process."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="Step 1:Login into the app using your Email and password if you already have an account. Else, sign up and create an account.
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text=" Step 2: Enter your travel time which is the time interval in which you want to travel."
+   />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp"
+        android:fontFamily="casual"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="Step 3: Answer a questionnaire of 3 simple questions asking your preferences."
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="Step 4: Enter your prefered location on the map."
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp"
+        android:fontFamily="casual"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="Step 5: Navigate through the 3 alternate travel plans provided to you and choose the route best suited for you.
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp"
+        android:fontFamily="casual"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="
+    Voila!! You have your travel plan saved which you can access in the 'Travel Plan' tab in the navigation drawer."/>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:text="
+    So, let's get started!"
+    />
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>

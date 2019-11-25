@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.androidsmartcitytraveller.questionnaire3"
+
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Would you like to visit a Shopping Mall?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup3"
+        android:layout_below="@+id/textView3"
+        android:paddingRight="9dp">
+
+        <RadioButton
+            android:id="@+id/shop_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/gurudwara"
+            android:layout_below="@+id/gurudwara"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="13dp"
+            android:text="Yes"
+            android:textSize="18sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/shop_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/shop_yes"
+            android:layout_below="@+id/shop_yes"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="13dp"
+            android:text="No"
+            android:textSize="18sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/subQuestion3"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+</RelativeLayout>

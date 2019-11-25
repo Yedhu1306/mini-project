@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidsmartcitytraveller.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:scaleType="centerCrop">
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="405dp"
+        android:layout_height="298dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="204dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/plane" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        android:layout_below="@id/l1"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l1"
+        app:layout_constraintVertical_bias="0.296">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:fontFamily="cursive"
+            android:text="AST"
+            android:textColor="#000000"
+            android:textSize="65sp"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="387dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

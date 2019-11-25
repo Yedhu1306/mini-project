@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TravelPlanActivity" />
+
+
+    <ImageView
+        android:id="@+id/travelloc_prev"
+        android:layout_width="58dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/travelloc_next"
+        android:layout_marginEnd="-96dp"
+        android:layout_toStartOf="@+id/travelloc_name"
+        android:src="@drawable/ic_prev" />
+
+    <ImageView
+        android:id="@+id/travelloc_next"
+        android:layout_width="62dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/travelloc_name"
+        android:layout_marginEnd="38dp"
+        android:src="@drawable/ic_next" />
+
+    <TextView
+        android:id="@+id/travelloc_name"
+        android:layout_width="185dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="33dp"
+        android:layout_marginStart="96dp"
+        android:textColor="#07181E"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mahima.exploready_final.AboutUs_activity"
+    >
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/eshika_pic"
+            android:src="@drawable/esha"/>
+        <TextView
+            android:id="@+id/eshika_name"
+            android:layout_toRightOf="@+id/eshika_pic"
+            android:textSize="18sp"
+            android:text="Eshika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/eshika_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eshika_name"
+            android:layout_toRightOf="@+id/eshika_pic"
+            android:text="eshikagupta@gmail.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eshika_email"
+            android:layout_toRightOf="@id/eshika_pic"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:text="CSE 3rd year DIT University"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/mahima_pic"
+            android:src="@drawable/mahima"/>
+        <TextView
+            android:id="@+id/mahima_name"
+            android:layout_toRightOf="@+id/mahima_pic"
+            android:textSize="18sp"
+            android:text="Mahima Tiwary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/mahima_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mahima_name"
+            android:layout_toRightOf="@+id/mahima_pic"
+            android:text="mahimatiwary.025@gmail.com"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mahima_email"
+            android:layout_toRightOf="@id/mahima_pic"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:text="CSE 3rd year DIT University"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/shreya_pic"
+            android:src="@drawable/shreya1"/>
+        <TextView
+            android:id="@+id/shreya_name"
+            android:layout_toRightOf="@+id/shreya_pic"
+            android:textSize="18sp"
+            android:text="Shreya Malik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/shreya_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shreya_name"
+            android:layout_toRightOf="@+id/shreya_pic"
+            android:text="smalik1189@gmail.com"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shreya_email"
+            android:layout_toRightOf="@id/shreya_pic"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:text="CSE 3rd year DIT University"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/richa_pic"
+            android:src="@drawable/richa1"/>
+        <TextView
+            android:id="@+id/richa_name"
+            android:layout_toRightOf="@+id/richa_pic"
+            android:textSize="18sp"
+            android:paddingLeft="5dp"
+            android:text="Richa Joshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/richa_email"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/richa_name"
+            android:layout_toRightOf="@+id/richa_pic"
+            android:text="joshirricha@gmail.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_below="@+id/richa_email"
+            android:layout_toRightOf="@id/richa_pic"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:text="CSE 3rd year DIT University"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+

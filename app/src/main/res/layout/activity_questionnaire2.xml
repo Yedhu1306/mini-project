@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.androidsmartcitytraveller.questionnaire2"
+
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Would you like to visit an adventure park?"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/subQuestion2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="19dp">
+
+        <RadioButton
+            android:id="@+id/amuse_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/amuse_no"
+            android:layout_below="@+id/amuse_no"
+            android:layout_marginTop="11dp"
+            android:text="Yes"
+            android:textSize="18sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/amuse_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:text="No"
+            android:textSize="18sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/subQuestion2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.androidsmartcitytraveller.TravelActivity"
+    android:background="@drawable/bg_gradient">
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="25dp"
+        android:layout_marginTop="86dp"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="Enter the time and let us plan your day!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_style"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="92dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="166dp"
+        android:fontFamily="casual"
+        android:text="From"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="107dp"
+        android:layout_height="46dp"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:background="@drawable/ediit"
+        android:inputType="time"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="107dp"
+        android:layout_height="46dp"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:background="@drawable/ediit"
+        android:layout_gravity="center"
+        android:inputType="time"
+        android:padding="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="54dp"
+        android:fontFamily="casual"
+        android:text="To"
+        android:textSize="18dp"
+        />
+
+
+
+
+</RelativeLayout>
