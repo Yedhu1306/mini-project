@@ -18,6 +18,10 @@ all the time for the app to work.
 - [Android](https://developer.android.com/studio)
 - [Google Map API](https://developers.google.com/maps/documentation)
 
+## Screenshot
+
+![Screenshot](https://github.com/Yedhu1306/mini-project/blob/master/1.png)
+
 ## About US
 
 We are students of Masters in computer application of Collge of Engineering Trivandrum
